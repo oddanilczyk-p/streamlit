@@ -52,7 +52,7 @@ if p < len(pytania):
 
 if p == 7:
     punkty = p
-    st.write(f"Liczba punktów to: {st.session_state.punkty}")
+    st.title(f"Liczba punktów to: {st.session_state.punkty}")
     if punkty == 7:
         st.write("Dostales ocene A")
     elif punkty == 6:
